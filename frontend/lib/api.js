@@ -1,4 +1,4 @@
-const API_BASE = "https://YOUR-CLOUDFLARE-WORKER-URL";
+const API_BASE = "https://backend.udarasrim.workers.dev";
 
 export async function getProducts() {
   const res = await fetch(`${API_BASE}/products`);

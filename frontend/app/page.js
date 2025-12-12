@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getProducts } from "./lib/api";
+import { getProducts } from "../lib/api";
 
 export default async function Page() {
   const products = await getProducts();
